@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: url('../images/background_image.jpg');
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BARRA DE NAVEGACIÓN-------------------------------------------------------------------- */
+.div_header_top{
+    background-color: red;
+    height: 150px;
+
+}
+
+nav{
+    background-color: #333;
+    overflow: hidden;
+    margin-bottom: 100px;
+   
+    
+    
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    float: right;
+}
+
+nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: medium;
+}
+
+nav ul li a:hover{
+    background-color: rgb(170, 151, 209);
+    color: black;
+}
+.div_header{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+/* -----------------------------------------------------------------------CONFERENCISTAS---------------------------------------------------- */
+.oradores{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom:15px;
+    padding: 0px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    min-height: 250px;
+    display: flex;
+    color: black;
+    
+}
+
+/* CONFERENCISTAS-IMAGENES----------------------------------------------------- */
+
+.container_left{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    margin-right: 50px;
+    padding: 0;
+    display: flex;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    
+}
+
+.container_left img{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding:0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* CONFERENCISTAS-TEXTO----------------------------------------------------- */
+.container_right{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    align-content: center;
+    width: auto;
+    margin-right: 50px;  
+}
+
+.title{
+    border-bottom: 1.5px solid rgb(255, 0, 208);
+    padding-bottom: 8px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    
+}
+
+
+.container_right p{
+    color: #646464;
+    margin-bottom: 12px;
+}
+
+ .button_conferencias{
+ 
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  text-decoration: none;
+  color: rgb(88, 64, 136);
+
+}
+
+
+/* FOOTER--------------------------------------------------------------------- */
+footer{
+    margin-top: 200px;
+}
+
+
+.div_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+
+
+}
+
+.div_footer a{
+    background-color:  rgb(170, 151, 209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    margin: 15px;
+    border-radius: 35px;
+}
+.div_footer a img{
+    margin: 0;
+    width: 70%;
+    height: auto;
+}
+
+footer p{
+    text-align: center;
+    margin-bottom: 5em;
+
+}
+
+
+
+
+
+
+
+    

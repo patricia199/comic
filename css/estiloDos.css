@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: url('../images/background_image.jpg');
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER----------------------------------------------------------------------- */
+.div_header_top{
+    background-color: red;
+    height: 150px;
+
+}
+
+nav{
+    background-color: #333;
+    overflow: hidden;
+    margin-bottom: 10px;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    float: right;
+}
+
+nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: rgb(170, 151, 209);
+    color: black;
+}
+.div_header{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+/*  CONTACTANOS------------------------------------------------------------------------- */
+.container_contact{
+    background-color: #190d229b;
+    height: 500px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-right: 125px;
+    margin-left: 125px;
+    border-radius: 15px;
+ }
+
+
+.info{
+    width: 50%;
+    display: flex;
+    align-items:center;
+    text-align: left;
+    padding: 4em;
+}
+
+
+.form{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 5em;
+}
+
+
+/*  REGISTRO------------------------------------------------------------------------- */
+
+.container_contactUno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formUno{
+    padding: 3em;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000e0;
+    border-radius: 15px;
+
+ }
+
+
+
+
+
+
+/* REGISTRO CONTACTANOS--------------------------------------------------------- */
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #45a049; 
+}
+
+
+
+
+
+
+
+
+/* FOOTER--------------------------------------------------------------------- */
+footer{
+    margin-top: 200px;
+}
+
+
+.div_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+
+
+}
+
+.div_footer a{
+    background-color:  rgb(170, 151, 209);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    margin: 15px;
+    border-radius: 35px;
+}
+.div_footer a img{
+    margin: 0;
+    width: 70%;
+    height: auto;
+}
+
+footer p{
+    text-align: center;
+    margin-bottom: 5em;
+
+}

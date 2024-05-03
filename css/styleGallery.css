@@ -1,0 +1,183 @@
+/* BANNER CON BOTON--------------------------------------------------------------------------- */
+
+.banner{
+  background-image: url('../images/galeriaOcho.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 180px 0;
+  color: #fff;
+  margin: auto;
+  margin-bottom: 50px;
+  width: 90vw;
+
+}
+
+.banner h2{
+  margin: 0;
+}
+
+.cta-button{
+  display: inline-block;
+  background-color: #ff5e00;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+
+
+
+
+/* CARROUSEL DE IAMGENES ----------------------------------------------*/
+
+
+.slider{
+  width: 100vw;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+.slider .slide-track{
+  display: flex;
+  animation: scroll 40s linear infinite;
+  width: calc(400px *22);
+}
+
+.slider .slide{
+  width: 400px;
+}
+
+.slider .slide img{
+  width: 100%;
+}
+
+
+@keyframes scroll {
+  0%{transform: translateX(0);}
+  100%{transform: translateX(calc(-400px*11));}
+}
+
+
+
+/* PRODUCTOS----------------------------------------------------------------------------------- */
+
+
+.padre-producto{
+  width: 85vw;
+  margin:auto;
+  display: grid;
+  grid-template-columns:
+      repeat(auto-fit,
+             minmax(200px, 2fr));
+  gap: 32px;
+}
+
+.madre-producto{
+  width: 85vw;
+  margin:auto;
+  display: grid;
+  grid-template-columns:
+      repeat(auto-fit,
+             minmax(450px, 1fr));
+  gap: 32px;
+}
+
+
+.container-producto{
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.425);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 5px;
+}
+
+
+.producto-childUno{
+  width: 100%;
+  height: auto;
+}
+
+
+.producto-childUno img{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+.producto-childDos{ 
+  padding: 0.9em;
+  margin: 0px;
+}
+
+.producto-childDos a{ 
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0;
+  padding: 14px;
+  border: 3.5px solid  rgb(255, 0, 144);
+  border-radius: 50px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 32px;
+ 
+}
+
+
+.producto-childDos a:hover{
+  
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0;
+  padding: 14px;
+  background-color: rgb(255, 0, 144);
+  border-radius: 50px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.producto-childDos h2{
+  
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight:400;
+  margin: 0;
+}
+
+
+.producto-childDos p{
+  
+ color: rgb(168, 159, 159);
+ font-size: 20px;
+ font-weight: 500;
+ margin: 0;
+}
+
+
+.corazon{
+  background-color: #df1a1a;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  margin-left: 7px;
+  display: block;
+  float: right;
+  border-radius: 50%;
+}
+
+
+.zoomed{
+  transform: scale(1.2);
+  transition: transform 0.5s;
+}
